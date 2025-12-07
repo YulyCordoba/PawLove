@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PawLove.Co</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- logo y navegación -->
+<header class="site-header">
+  <div class="header-content">
+    <div class="logo">
+      <img src="images/otros/logo.png" alt="Logo de PawLove.Co">
+    </div>
+    <nav>
+      <a href="index.html" class="menu-highlight">Inicio</a>
+      <a href="dogs.html" class="menu-highlight">Perros</a>
+      <a href="cats.html" class="menu-highlight">Gatos</a>
+    </nav>
+  </div>
+</header>
+
+    <!-- Portada-->
+    <div class="hero">
+      <div class="hero-overlay">
+      <h1>Huellas que buscan amor</h1>
+      </div>
+    </div>
+
+  <!-- MAIN: contenido principal -->
+  <main>
+
+
+    <!-- SECTION: quienes somos  -->
+    <section class="section container">
+       <div class="nosotros-card">
+      <h2>Nosotros</h2>
+      <p class="lead">Somos una sociedad sin animo de lucro. Promovemos adopción responsable y seguimiento post-adopción.
+         Nuestro objetivo es unir peluditos con hogares que los amen.</p>
+        </div>
+        </section>
+
+    <!-- SECTION: videos -->
+    <section class="section container">
+      <h2>Huellitas andantes</h2>
+      <p class="lead">Videos de peluditos súper encantadooores...</p>
+      <div class="grid">
+        
+        <!-- Video 1 -->
+        <article class="card">
+          <video controls poster="images/cats/video1-poster.jpg">
+            <source src="videos/gatitos.mp4" type="video/mp4">
+          </video>
+
+        <!-- Mensaje debajo del video-->
+          <div class="card-content">
+            <h3>Gatitos llegaron a llenar todo de amor</h3>
+            <p>Una familia de gatitos ha llegado y quieren que seas su lugar seguro</p>
+          </div>
+        </article>
+
+        <!-- Video 2 -->
+        <article class="card">
+          <video controls poster="images/cats/video2-poster.jpg">
+            <source src="videos/perritos.mp4" type="video/mp4">
+          </video>
+
+          <!-- Mensaje debajo del video-->
+          <div class="card-content">
+            <h3>Perritos con mucho amor</h3>
+            <p>Tenemos para ti muchas razas especiales, llenas de amor</p>
+          </div>
+        </article>
+      </div> 
+    </section>
+    </main>
+    <!-- SECCIÓN: formulario para interesados y agendar cita -->
+    <section id="contacto" class="section container">
+      <h2>Agenda tu cita y disfruta de la mejor compañia</h2>
+      <p class="lead">Completa tus datos y te contactaremos para coordinar una visita.</p>
+
+      <div class="form-card">
+          <label>Nombre completo</label>
+          <input type="text" name="Nombre" placeholder="Tu nombre" required>
+
+          <label>Correo electrónico</label>
+          <input type="email" name="Email" placeholder="tu@correo.com" required>
+
+          <label>Teléfono (opcional)</label>
+          <input type="tel" name="Telefono" placeholder="+57 3xx xxx xxxx">
+
+          <label>Animal de interés</label>
+          <input type="text" name="Animal" placeholder="Ej: Luna (perra)">
+
+          <label>Mensaje</label>
+          <textarea name="Mensaje" rows="4" placeholder="Cuéntanos algo sobre tu hogar..."></textarea>
+
+          <button class="boton" type="submit">Enviar solicitud</button>
+          
+        </form>
+      </div>
+
+
+  <!-- SECTION: contacto -->  
+    <section class="section container">
+    <div class="contacto-card" style="margin-top:14px;">
+        <h2>Contáctanos</h2>
+        <strong>Email: administracion@pawlove.co</strong> <br>
+        <strong>Teléfono: +57 318 555 1234</strong>
+    </div>
+    </section>
+
+    </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © PawLove.Co — Organización sin ánimo de lucro
+    </div>
+  </footer>
+</body>
+</html>
